@@ -3,6 +3,9 @@ body{
 color: #212121;
 
 }
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+
 
 .menu-styling {
   background-color: #FFFFFF;
