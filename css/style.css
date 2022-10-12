@@ -5,19 +5,16 @@ color: #212121;
 }
 @import 'node_modules/modern-normalize/modern-normalize.css';
 
-
-
-.menu-styling {
-  background-color: #FFFFFF;
+.container  {
   height: 80px;
 width: 1600px;
 left: 0px;
 top: 0px;
 border-radius: 0px;
-border: 1px solid #000000
-box-shadow: 0px 4px 4px 0px #00000040;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
 }
-
 .logo {
   font-family: Raleway, sans-serif;
 font-size: 26px;
@@ -28,9 +25,28 @@ text-align: left;
 color:#2196F3;
 text-decoration: none;
 display: flex;
+justify-content: space-between;
+align-items: center;}
 
-
+.menu-styling  {
+  background-color: #FFFFFF;
+  /* height: 80px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px; */
+border: 1px solid #000000
+box-shadow: 0px 4px 4px 0px #00000040;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
 }
+
+
+
+
+
+
 
 .studio-styling {
   color: black; 
