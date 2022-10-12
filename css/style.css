@@ -1,11 +1,17 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
 body{
   font-family: "Roboto", sans-serif;;
 color: #212121;
 
 }
-@import 'node_modules/modern-normalize/modern-normalize.css';
-
-.container  {
+.container {
+  width: 1200px;
+}
+.section{
+  padding: 94px;
+}
+.wrapper  {
   height: 80px;
 width: 1600px;
 left: 0px;
@@ -26,15 +32,14 @@ color:#2196F3;
 text-decoration: none;
 display: flex;
 justify-content: space-between;
-align-items: center;}
+align-items: center;
+padding-top: 24px;
+padding-bottom: 25px;
+}
 
 .menu-styling  {
   background-color: #FFFFFF;
-  /* height: 80px;
-width: 1600px;
-left: 0px;
-top: 0px;
-border-radius: 0px; */
+ 
 border: 1px solid #000000
 box-shadow: 0px 4px 4px 0px #00000040;
 display: inline-flex;
@@ -52,7 +57,9 @@ align-items: center;
   color: black; 
 }
 .menu {
-
+padding-top: 32px;
+padding-bottom: 32px;
+margin-left: 93px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -106,6 +113,8 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
 display: inline-flex;
+padding-top: 32px;
+margin-left: 227px;
 }
 .contact-data .link {
   color: #757575;
