@@ -221,7 +221,8 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
-
+display: flexbox;
+text-align: center;
 /* display: inline-block;
 /* height: 42px;
 width: 352px;
@@ -272,7 +273,7 @@ line-height: 19px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
-
+margin-bottom: 59px;
 
  }
  .job-position {
@@ -284,13 +285,19 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #757575;
 padding-inline: 99px;
-
+padding-top: 30px;
+padding-bottom: 30px;
 
 
  }
  .footer {
   background-color: #2F303A;
-;
+height: 252px;
+width: 1600px;
+left: 0px;
+top: 2097px;
+border-radius: 0px;
+
  }
 
  .studio-styling-second {
