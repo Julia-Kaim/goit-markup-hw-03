@@ -212,11 +212,7 @@ display: inline-flex;
 
 }
 
-/* .header-wrapper:first-child {
 
-display: flex;
-align-self: center;
-} */
 .picture-header {
 
 font-size: 36px;
@@ -225,6 +221,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
+
 /* display: inline-block;
 /* height: 42px;
 width: 352px;
