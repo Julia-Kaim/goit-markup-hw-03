@@ -221,8 +221,9 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
-display: flexbox;
-text-align: center;
+display: flex;
+
+align-self: center;
 /* display: inline-block;
 /* height: 42px;
 width: 352px;
