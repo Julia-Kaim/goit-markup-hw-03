@@ -146,10 +146,7 @@ border-radius: 0px;
 .button {
   background-color: #2196F3;
 color: #FFFFFF;
-height: 50px;
-width: 200px;
-left: 723px;
-top: 404px;
+
 border-radius: 4px;
 border-color: #2196F3;
 
@@ -158,23 +155,18 @@ font-weight: 700;
 line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
-margin-top: 350px;
-margin-inline: 700px;
-margin-bottom: 200px;
+
 
 
 }
 .main-styling {
-  font-family: Roboto;
+ 
 font-size: 44px;
 font-weight: 900;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-align: center;
-margin-top: 200px;
-margin-inline: 452px;
-margin-bottom: 280px;
-align-items: center;
+
 }
 
 
@@ -226,16 +218,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 display: flex;
-
 align-self: center;
-/* display: inline-block;
-/* height: 42px;
-width: 352px;
-margin-right: 609px;
-/* margin-left: 639px; */ 
-
-
-
 
 
 } 
@@ -263,39 +246,52 @@ top: 1449px;
 border-radius: 0px;
 
 }
- .person-box {
-  background-color: #FFFFFF;
-  width: 270px;
-  height: 368px;
 
 
- }
- .name-styling {
+
+.person-box {
+ background-color: #FFFFFF;
+ width: 270px;
+ height: 368px; }
  
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
-margin-bottom: 59px;
-
- }
- .job-position {
-height: 108px;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #757575;
-padding-inline: 99px;
-padding-top: 30px;
-padding-bottom: 30px;
+.name-position {
+display: flex;
+align-items: center;
+}
 
 
- }
- .footer {
+
+.name-styling {
+  
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 59px;
+ 
+  
+}
+.job-position {
+  height: 108px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+  padding-inline: 99px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+ 
+
+  
+  
+}
+.footer {
   background-color: #2F303A;
 height: 252px;
 width: 1600px;
