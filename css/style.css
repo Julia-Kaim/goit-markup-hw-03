@@ -23,6 +23,7 @@ body {
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -303,12 +304,18 @@ body {
   display: flex;
   flex-direction: column;
 }
+.button-port {
+display: flex;
+   padding: 10px;
+  margin: 0;
+}
 .button-portfolio {
+ 
   color: #212121;
   background-color: #f5f4fa;
   fill: solid;
   height: 50px;
-  width: 200px;
+ 
   left: 723px;
   top: 404px;
   border-radius: 4px;
@@ -320,12 +327,12 @@ body {
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
+  margin: 5px;
+  padding: 10px;
+  
 }
-.button-port > button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+  
+
 
 .button-portfolio:hover {
   background-color: #2196f3;
@@ -338,20 +345,20 @@ body {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  
+  gap: 30px;
   padding: 0;
   list-style: none;
    flex-basis: 100%;
 }
-.item  {
+.item {
   margin-top: 0;
 
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px;
   padding: 0;
   
-  flex-basis: calc((100% - 90px)/4);
+  flex-basis: calc((100% - 120px)/4);
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -359,4 +366,10 @@ body {
   background-color: #ffffff;
   width: 270px;
   height: 370px;
+}
+
+.item > img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
