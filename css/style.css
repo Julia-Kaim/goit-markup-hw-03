@@ -178,7 +178,10 @@ background-color: #FFFFFF;
 }
 .list-styling {
   list-style: none;
-  display: inline-flex;
+  display: flex;
+
+  
+
 }
 .text-header {
 
@@ -256,7 +259,8 @@ border-radius: 0px;
  
 .name-position {
 display: flex;
-align-items: center;
+justify-content: space-around;
+
 }
 
 
@@ -270,6 +274,9 @@ align-items: center;
   text-align: center;
   color: #212121;
   margin-bottom: 59px;
+  display: block;
+  justify-content: first baseline;
+
  
   
 }
@@ -285,8 +292,7 @@ align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
-  align-items: center;
- 
+  justify-content: space-between;
 
   
   
@@ -298,6 +304,7 @@ width: 1600px;
 left: 0px;
 top: 2097px;
 border-radius: 0px;
+display: flex;
 
  }
 
