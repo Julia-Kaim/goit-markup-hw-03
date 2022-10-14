@@ -212,7 +212,11 @@ display: inline-flex;
 
 }
 
-
+.header-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .picture-header {
 
 font-size: 36px;
