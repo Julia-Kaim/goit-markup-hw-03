@@ -6,13 +6,16 @@ body {
 }
 .container {
   max-width: 1200px;
-  padding: 0 15px;
+  padding: 0 auto;
   margin: 0 auto;
   box-sizing: border-box;
   width: 100%;
 }
 .section {
-  padding: 94px;
+  padding-block: 94px;
+  margin: 0 auto;
+  flex-basis: 100%; 
+  /* tutaj teraz zmmieniam */
 }
 .wrapper {
   height: 80px;
@@ -162,6 +165,7 @@ body {
 .list-styling {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 .text-header {
   font-size: 14px;
@@ -305,17 +309,17 @@ body {
   flex-direction: column;
 }
 .button-port {
-display: flex;
-   padding: 10px;
-  margin: 0;
+  display: flex;
+  padding: 10px;
+  margin: 50px;
 }
 .button-portfolio {
- 
+  display: flex;
   color: #212121;
   background-color: #f5f4fa;
-  fill: solid;
+  
   height: 50px;
- 
+
   left: 723px;
   top: 404px;
   border-radius: 4px;
@@ -329,10 +333,7 @@ display: flex;
   text-align: center;
   margin: 5px;
   padding: 10px;
-  
 }
-  
-
 
 .button-portfolio:hover {
   background-color: #2196f3;
@@ -346,30 +347,40 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin: 0;
   padding: 0;
   list-style: none;
-   flex-basis: 100%;
+  
+}
+.item-box {
+height: 404px;
+width: 370px;
+border-radius: 0px;
+margin: 0;
+padding: 0;
+
+
+ 
 }
 .item {
-  margin-top: 0;
-
+  padding-left: 0;
   display: flex;
+  
+  flex-direction: row;
+ height: 404px;
+width: 370px;
+
+border-radius: 0px;
+
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0;
+  flex-basis: calc((100% - 60px)/3);
   
-  flex-basis: calc((100% - 120px)/4);
-  padding: 10px;
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: #ffffff;
-  width: 270px;
-  height: 370px;
+
 }
 
-.item > img {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
+
