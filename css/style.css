@@ -241,7 +241,7 @@ width: 200px;
   height: 368px;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+ 
   padding: 0;
   list-style: none;
   /* flex-basis: calc((100% - 60px) / 3); */
