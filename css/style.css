@@ -6,7 +6,7 @@ body {
 }
 .container {
   max-width: 1200px;
-  padding: 0 auto;
+  padding: 0 15px;
   margin: 0 auto;
   box-sizing: border-box;
   width: 100%;
@@ -168,6 +168,7 @@ width: 200px;
 .lorem {
   display: flex;
   justify-content: center;
+  
 }
 .list-styling {
   list-style: none;
@@ -175,6 +176,7 @@ width: 200px;
   justify-content: center;
   margin: 0;
   padding: 0;
+width: 1200px;
 }
 .text-header {
   font-size: 14px;
@@ -234,18 +236,21 @@ width: 200px;
   top: 1449px;
   border-radius: 0px;
 }
-
+.team-members {
+  width: 1200px;
+  display: flex;
+}
 .person-box {
   background-color: #ffffff;
   width: 270px;
   height: 368px;
   display: flex;
   flex-wrap: wrap;
- 
-  padding: 0;
+ margin-inline: 10px;
+
   list-style: none;
   /* flex-basis: calc((100% - 60px) / 3); */
-  padding: 10px;
+  padding: 0px;
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
