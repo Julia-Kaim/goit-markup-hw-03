@@ -325,6 +325,10 @@ body {
   padding: 10px;
   margin: 50px;
 }
+.button-position {
+  display: flex;
+  justify-content: center;
+}
 .button-portfolio {
   display: flex;
   justify-content: center;
