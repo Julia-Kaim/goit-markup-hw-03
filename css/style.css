@@ -294,6 +294,9 @@ body {
 }
 .cont-footer {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 .address {
   font-size: 14px;
@@ -303,12 +306,9 @@ body {
   text-align: left;
   color: #ffffff;
   font-style: normal;
-}
-.contact-item {
-  display: flex;
-  flex-direction: column;
   padding: 10px;
 }
+
 .contact-footer {
   font-size: 14px;
   font-weight: 400;
@@ -317,8 +317,6 @@ body {
   text-align: left;
   color: #ffffff99;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
 }
 .button-port {
   display: flex;
