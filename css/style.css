@@ -14,8 +14,7 @@ body {
 .section {
   padding-block: 94px;
   margin: 0 auto;
-  flex-basis: 100%; 
-  
+  flex-basis: 100%;
 }
 .wrapper {
   height: 80px;
@@ -142,7 +141,7 @@ body {
 
   border-radius: 4px;
   border-color: #2196f3;
-width: 200px;
+  width: 200px;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -168,15 +167,12 @@ width: 200px;
 .lorem {
   display: flex;
   justify-content: center;
-  
 }
 .list-styling {
   list-style: none;
   display: flex;
-  justify-content: center;
   margin: 0;
   padding: 0;
-width: 1200px;
 }
 .text-header {
   font-size: 14px;
@@ -186,7 +182,6 @@ width: 1200px;
   text-align: left;
   color: #212121;
 }
-
 
 .description {
   font-size: 14px;
@@ -198,7 +193,6 @@ width: 1200px;
 
   padding-right: 22px;
   display: inline-flex;
-  
 }
 
 .header-wrapper {
@@ -246,10 +240,10 @@ width: 1200px;
   height: 368px;
   display: flex;
   flex-wrap: wrap;
- margin-inline: 10px;
+  margin-inline: 10px;
 
   list-style: none;
-  /* flex-basis: calc((100% - 60px) / 3); */
+
   padding: 0px;
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -258,7 +252,6 @@ width: 1200px;
 
 .name-position {
   display: flex;
-  justify-content: space-around;
 }
 
 .name-styling {
@@ -268,43 +261,41 @@ width: 1200px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
-  margin-bottom: 59px;
+  margin-bottom: 5px;
   display: block;
   justify-content: baseline;
 }
 .job-position {
-  height: 108px;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
-  padding-inline: 99px;
+  padding-inline: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
-  display: flex;
-  justify-content: space-between;
+  display: block;
 }
 .footer {
   background-color: #2f303a;
   height: 252px;
   width: 1200px;
-  left: 0px;
-  top: 2097px;
-  border-radius: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
-
+.logo-footer {
+  display: flex;
+  padding-top: 20px;
+}
 .studio-styling-second {
   color: #ffffff;
 }
 .contact-footer:hover {
   color: #2196f3;
 }
-.adress {
+.cont-footer {
+  margin-top: 30px;
+}
+.address {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -312,6 +303,11 @@ width: 1200px;
   text-align: left;
   color: #ffffff;
   font-style: normal;
+}
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 .contact-footer {
   font-size: 14px;
@@ -331,9 +327,10 @@ width: 1200px;
 }
 .button-portfolio {
   display: flex;
+  justify-content: center;
   color: #212121;
   background-color: #f5f4fa;
-  
+
   height: 50px;
 
   left: 723px;
@@ -367,38 +364,31 @@ width: 1200px;
   margin-top: 30px;
   padding: 0;
   list-style: none;
-  
 }
 .item-box {
-height: 404px;
-width: 370px;
-border-radius: 0px;
-margin: 0;
-padding: 0;
-
-
- 
+  height: 404px;
+  width: 370px;
+  border-radius: 0px;
+  margin: 0;
+  padding: 0;
 }
 .item {
   padding-left: 0;
   padding-right: 0;
   display: flex;
-  
-  flex-direction: row;
- height: 404px;
-width: 370px;
 
-border-radius: 0px;
+  flex-direction: row;
+  height: 404px;
+  width: 370px;
+
+  border-radius: 0px;
 
   flex-wrap: wrap;
   gap: 30px;
-  flex-basis: calc((100% - 60px)/3);
-  
+  flex-basis: calc((100% - 60px) / 3);
+
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: #ffffff;
-
 }
-
-
