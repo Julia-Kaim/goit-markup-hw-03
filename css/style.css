@@ -1,7 +1,7 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
- :root {
+:root {
   --logo-color: #2196f3;
- }
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -22,7 +22,6 @@ body {
 .wrapper {
   width: 1200px;
 
-  border-radius: 0px;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
@@ -83,13 +82,13 @@ body {
   padding: 46px;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .link:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .link:active {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .link:visited {
   text-decoration: none;
@@ -114,14 +113,14 @@ body {
   margin: 0;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .link:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .link:active {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .link:visited {
   text-decoration: none;
@@ -137,11 +136,11 @@ body {
   border-radius: 0px;
 }
 .button {
-  background-color: #2196f3;
+  background-color: var(--logo-color);
   color: #ffffff;
 
   border-radius: 4px;
-  border-color: #2196f3;
+  border-color: var(--logo-color);
   width: 200px;
   font-size: 16px;
   font-weight: 700;
@@ -277,7 +276,6 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   display: block;
-
 }
 .footer {
   background-color: #2f303a;
@@ -293,7 +291,7 @@ body {
   color: #ffffff;
 }
 .contact-footer:hover {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .cont-footer {
   margin-top: 10px;
@@ -354,13 +352,13 @@ body {
 }
 
 .button-portfolio:hover {
-  background-color: #2196f3;
+  background-color: var(--logo-color);
   color: #ffffff;
 }
 .button-portfolio:focus {
-  background-color: #2196f3;
+  background-color: var(--logo-color);
   color: #ffffff;
-} 
+}
 
 .card-set {
   display: flex;
